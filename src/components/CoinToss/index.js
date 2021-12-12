@@ -29,14 +29,16 @@ class CoinToss extends Component {
       <div className="bgContainer">
         <div className="card">
           <h1 className="heading">Coin Toss Game</h1>
-          <p>Haeds (or) Tails</p>
+          <p>Heads (or) Tails</p>
           {Ishead ? (
             <img
+              alt="toss result"
               className="image"
               src="https://assets.ccbp.in/frontend/react-js/heads-img.png"
             />
           ) : (
             <img
+              alt="toss result"
               className="image"
               src="https://assets.ccbp.in/frontend/react-js/tails-img.png"
             />
